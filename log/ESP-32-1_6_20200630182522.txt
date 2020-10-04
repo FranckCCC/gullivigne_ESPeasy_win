@@ -1,0 +1,126 @@
+######2020-06-30######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESP_Easy_mega-20200426_test_ESP32-wrover-kit_4M316k.bin
+COM port: (COM6) USB-SERIAL CH340 (Port_#0011.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+No post flash information entered...
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM6 -ca 0x00000 -cf "C:\Users\Franck\Desktop\ESPeasy\ESPEasy_ESP82xx_mega-20200608\bin\ESP_Easy_mega-20200426_test_ESP32-wrover-kit_4M316k.bin"]
+[30/06/2020 18:25:45] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[30/06/2020 18:25:45] 	setting board to nodemcu
+[30/06/2020 18:25:45] 	setting baudrate from 115200 to 115200
+[30/06/2020 18:25:45] 	setting port from  to COM6
+[30/06/2020 18:25:45] 	setting address from 0x00000000 to 0x00000000
+[30/06/2020 18:25:45] 	espcomm_upload_file
+[30/06/2020 18:25:45] 	espcomm_upload_mem
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] opening bootloader
+[30/06/2020 18:25:45] resetting board
+[30/06/2020 18:25:45] trying to connect
+[30/06/2020 18:25:45] 	flush start
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1 ms
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] 	flush complete
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command header
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command payload
+[30/06/2020 18:25:45] 	read 0, requested 1
+[30/06/2020 18:25:45] trying to connect
+[30/06/2020 18:25:45] 	flush start
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1 ms
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] 	flush complete
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command header
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command payload
+[30/06/2020 18:25:45] 	read 0, requested 1
+[30/06/2020 18:25:45] trying to connect
+[30/06/2020 18:25:45] 	flush start
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1 ms
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] 	flush complete
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command header
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command payload
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] resetting board
+[30/06/2020 18:25:45] trying to connect
+[30/06/2020 18:25:45] 	flush start
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1 ms
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] 	flush complete
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command header
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command payload
+[30/06/2020 18:25:45] 	read 0, requested 1
+[30/06/2020 18:25:45] trying to connect
+[30/06/2020 18:25:45] 	flush start
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1 ms
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] 	flush complete
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command header
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command payload
+[30/06/2020 18:25:45] 	read 0, requested 1
+[30/06/2020 18:25:45] trying to connect
+[30/06/2020 18:25:45] 	flush start
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1 ms
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] 	flush complete
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command header
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command payload
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] resetting board
+[30/06/2020 18:25:45] trying to connect
+[30/06/2020 18:25:45] 	flush start
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1 ms
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] 	flush complete
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command header
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command payload
+[30/06/2020 18:25:45] 	read 0, requested 1
+[30/06/2020 18:25:45] trying to connect
+[30/06/2020 18:25:45] 	flush start
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1 ms
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] 	flush complete
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command header
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command payload
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] trying to connect
+[30/06/2020 18:25:45] 	flush start
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1 ms
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] 	flush complete
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command header
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command payload
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] 	espcomm_send_command: receiving 4 bytes of data
+[30/06/2020 18:25:45] Uploading 1786176 bytes from C:\Users\Franck\Desktop\ESPeasy\ESPEasy_ESP82xx_mega-20200608\bin\ESP_Easy_mega-20200426_test_ESP32-wrover-kit_4M316k.bin to flash at 0x00000000
+[30/06/2020 18:25:45] 	erasing flash
+[30/06/2020 18:25:45] 	size: 1b4140 address: 000000
+[30/06/2020 18:25:45] 	first_sector_index: 0
+[30/06/2020 18:25:45] 	total_sector_count: 437
+[30/06/2020 18:25:45] 	head_sector_count: 16
+[30/06/2020 18:25:45] 	adjusted_sector_count: 421
+[30/06/2020 18:25:45] 	erase_size: 1a5000
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command header
+[30/06/2020 18:25:45] 	espcomm_send_command: sending command payload
+[30/06/2020 18:25:45] 	setting serial port timeouts to 16788 ms
+[30/06/2020 18:25:45] 	read 0, requested 1
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] warning: espcomm_send_command: didn't receive command response
+[30/06/2020 18:25:45] warning: espcomm_send_command(FLASH_DOWNLOAD_BEGIN) failed
+[30/06/2020 18:25:45] closing bootloader
+[30/06/2020 18:25:45] 	flush start
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1 ms
+[30/06/2020 18:25:45] 	setting serial port timeouts to 1000 ms
+[30/06/2020 18:25:45] 	flush complete
+[30/06/2020 18:25:45] error: espcomm_upload_mem failed
+[2020-06-30 18:25:45] DONE! BUT WITH (1) ERRORS!
+############################
+[2020-06-30 18:25:45] The COM port was already in use... the post-flash did not complete.
+[2020-06-30 18:25:45] JOB COMPLETED, over and out!

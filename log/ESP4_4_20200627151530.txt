@@ -1,0 +1,18 @@
+######2020-06-27######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: Programming only...
+COM port: (COM7) Silicon Labs CP210x USB to UART Bridge (Port_#0011.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+Unit name: ESP4
+Unit number: 4
+Admin password: LenaKewan@5020
+WiFi SSID 1: 
+WiFi password 1: 
+WiFi SSID 2: 
+WiFi password 2: 
+IP: <DHCP>
+######POST FLASH######
+############################
+[2020-06-27 15:15:31] JOB COMPLETED, over and out!

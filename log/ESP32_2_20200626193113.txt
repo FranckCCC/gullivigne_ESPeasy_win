@@ -1,0 +1,21 @@
+######2020-06-26######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESP_Easy_mega-20200426_test_ESP32_4M316k.bin
+COM port: (COM7) Silicon Labs CP210x USB to UART Bridge (Port_#0011.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+No post flash information entered...
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM7 -ca 0x00000 -cf "C:\Users\Franck\Desktop\ESPEasy_ESP82xx_mega-20200608\bin\ESP_Easy_mega-20200426_test_ESP32_4M316k.bin"]
+[26/06/2020 19:31:13] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[26/06/2020 19:31:13] 	setting board to nodemcu
+[26/06/2020 19:31:13] 	setting baudrate from 115200 to 115200
+[26/06/2020 19:31:13] 	setting port from  to COM7
+[26/06/2020 19:31:13] 	setting address from 0x00000000 to 0x00000000
+[26/06/2020 19:31:13] 	espcomm_upload_file
+[26/06/2020 19:31:13] 	espcomm_upload_mem
+[26/06/2020 19:31:13] error: Failed to open COM7
+[26/06/2020 19:31:13] error: espcomm_open failed
+[26/06/2020 19:31:13] error: espcomm_upload_mem failed
+[2020-06-26 19:31:13] STOPPED due to 3 errors! (try reset on the unit, then start a new flash attempt)

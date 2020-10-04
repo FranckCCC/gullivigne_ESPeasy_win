@@ -1,0 +1,27 @@
+######2020-07-09######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: Programming only...
+COM port: (COM7) Silicon Labs CP210x USB to UART Bridge (Port_#0005.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+Unit name: ESPdom-1
+Unit number: 9
+Admin password: LenaKewan@5020
+WiFi SSID 1: 
+WiFi password 1: 
+WiFi SSID 2: 
+WiFi password 2: 
+IP: 192.168.0.150
+######POST FLASH######
+[2020-07-09 12:19:23] Sending SERIAL: "..."
+[2020-07-09 12:19:26] Sending SERIAL: " Name ESPdom-1 "
+[2020-07-09 12:19:27] Sending SERIAL: " Unit 9 "
+[2020-07-09 12:19:29] Sending SERIAL: " Password LenaKewan@5020 "
+[2020-07-09 12:19:30] Sending SERIAL: " ip 192.168.0.150 "
+[2020-07-09 12:19:31] Sending SERIAL: " gateway 192.168.0.1 "
+[2020-07-09 12:19:33] Sending SERIAL: " dns 8.8.8.8 "
+[2020-07-09 12:19:34] Sending SERIAL: " subnet 255.255.255.0 "
+[2020-07-09 12:19:36] Sending SERIAL: "Save"
+############################
+[2020-07-09 12:19:37] JOB COMPLETED, over and out!

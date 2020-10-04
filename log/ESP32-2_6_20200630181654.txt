@@ -1,0 +1,22 @@
+######2020-06-30######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: Programming only...
+COM port: (COM7) Silicon Labs CP210x USB to UART Bridge (Port_#0011.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+Unit name: ESP32-2
+Unit number: 6
+Admin password: LenaKewan@5020
+WiFi SSID 1: WIFI_BERNIER
+WiFi password 1: LenaKewanFelix@5020
+WiFi SSID 2: 
+WiFi password 2: 
+IP: 192.168.0.136
+######POST FLASH######
+[2020-06-30 18:16:55] Sending SERIAL: "..."
+[2020-06-30 18:16:58] Sending SERIAL: " Name ESP32-2 "
+[2020-06-30 18:17:01] Sending SERIAL: " Unit 6 "
+[2020-06-30 18:22:49] Sending SERIAL: " Password LenaKewan@5020 "
+[2020-06-30 18:22:51] Sending SERIAL: " WifiSSID WIFI_BERNIER "
+[2020-06-30 18:22:52] Sending SERIAL: " WifiKey LenaKewanFelix@5020 "

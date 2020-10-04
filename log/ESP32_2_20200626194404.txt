@@ -1,0 +1,23 @@
+######2020-06-26######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: Programming only...
+COM port: (COM6) USB-SERIAL CH340 (Port_#0011.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+Unit name: ESP32
+Unit number: 2
+Admin password: LenaKewan@5020
+WiFi SSID 1: 
+WiFi password 1: 
+WiFi SSID 2: 
+WiFi password 2: 
+IP: <DHCP>
+######POST FLASH######
+[2020-06-26 19:44:05] Sending SERIAL: "..."
+[2020-06-26 19:44:07] Sending SERIAL: " Name ESP32 "
+[2020-06-26 19:44:08] Sending SERIAL: " Unit 2 "
+[2020-06-26 19:44:10] Sending SERIAL: " Password LenaKewan@5020 "
+[2020-06-26 19:44:12] Sending SERIAL: "Save"
+############################
+[2020-06-26 19:44:13] JOB COMPLETED, over and out!

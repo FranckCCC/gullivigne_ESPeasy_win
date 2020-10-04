@@ -1,0 +1,28 @@
+######2020-06-26######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESP_Easy_mega_20200608_normal_ESP8266_4M1M.bin
+COM port: (COM7) Silicon Labs CP210x USB to UART Bridge (Port_#0005.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+Unit name: EASY
+Unit number: 1
+Admin password: admin
+WiFi SSID 1: WIFI_BERNIER
+WiFi password 1: LenaKewanFelix@5020
+WiFi SSID 2: 
+WiFi password 2: 
+IP: 192.168.0.123
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM7 -ca 0x00000 -cf "C:\Users\Franck\Desktop\ESPEasy_ESP82xx_mega-20200608\bin\ESP_Easy_mega_20200608_normal_ESP8266_4M1M.bin"]
+[26/06/2020 17:45:40] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[26/06/2020 17:45:40] 	setting board to nodemcu
+[26/06/2020 17:45:40] 	setting baudrate from 115200 to 115200
+[26/06/2020 17:45:40] 	setting port from  to COM7
+[26/06/2020 17:45:40] 	setting address from 0x00000000 to 0x00000000
+[26/06/2020 17:45:40] 	espcomm_upload_file
+[26/06/2020 17:45:40] 	espcomm_upload_mem
+[26/06/2020 17:45:40] error: Failed to open COM7
+[26/06/2020 17:45:40] error: espcomm_open failed
+[26/06/2020 17:45:40] error: espcomm_upload_mem failed
+[2020-06-26 17:45:40] STOPPED due to 3 errors! (try reset on the unit, then start a new flash attempt)

@@ -1,0 +1,17 @@
+######2020-06-27######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: Programming only...
+COM port: (COM6) USB-SERIAL CH340 (Port_#0011.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+Unit name: ESP4
+Unit number: 4
+Admin password: LenaKewan@5020
+WiFi SSID 1: 
+WiFi password 1: 
+WiFi SSID 2: 
+WiFi password 2: 
+IP: 192.168.0.128
+######POST FLASH######
+[2020-06-27 15:59:54] Sending SERIAL: "..."

@@ -1,0 +1,81 @@
+######2020-06-26######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESP_Easy_mega_20200608_normal_ESP8266_1M.bin
+COM port: (COM7) Silicon Labs CP210x USB to UART Bridge (Port_#0011.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+No post flash information entered...
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM7 -ca 0x00000 -cf "C:\Users\Franck\Desktop\ESPEasy_ESP82xx_mega-20200608\bin\ESP_Easy_mega_20200608_normal_ESP8266_1M.bin"]
+[26/06/2020 17:40:32] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[26/06/2020 17:40:32] 	setting board to nodemcu
+[26/06/2020 17:40:32] 	setting baudrate from 115200 to 115200
+[26/06/2020 17:40:32] 	setting port from  to COM7
+[26/06/2020 17:40:32] 	setting address from 0x00000000 to 0x00000000
+[26/06/2020 17:40:32] 	espcomm_upload_file
+[26/06/2020 17:40:32] 	espcomm_upload_mem
+[26/06/2020 17:40:32] 	setting serial port timeouts to 1000 ms
+[26/06/2020 17:40:32] opening bootloader
+[26/06/2020 17:40:32] resetting board
+[26/06/2020 17:40:32] trying to connect
+[26/06/2020 17:40:32] 	flush start
+[26/06/2020 17:40:32] 	setting serial port timeouts to 1 ms
+[26/06/2020 17:40:32] 	setting serial port timeouts to 1000 ms
+[26/06/2020 17:40:32] 	flush complete
+[26/06/2020 17:40:32] 	espcomm_send_command: sending command header
+[26/06/2020 17:40:32] 	espcomm_send_command: sending command payload
+[26/06/2020 17:40:32] 	read 0, requested 1
+[26/06/2020 17:40:32] trying to connect
+[26/06/2020 17:40:32] 	flush start
+[26/06/2020 17:40:32] 	setting serial port timeouts to 1 ms
+[26/06/2020 17:40:32] 	setting serial port timeouts to 1000 ms
+[26/06/2020 17:40:32] 	flush complete
+[26/06/2020 17:40:32] 	espcomm_send_command: sending command header
+[26/06/2020 17:40:32] 	espcomm_send_command: sending command payload
+[26/06/2020 17:40:32] 	espcomm_send_command: receiving 2 bytes of data
+[26/06/2020 17:40:32] 	espcomm_send_command: receiving 2 bytes of data
+[26/06/2020 17:40:32] 	espcomm_send_command: receiving 2 bytes of data
+[26/06/2020 17:40:32] 	espcomm_send_command: receiving 2 bytes of data
+[26/06/2020 17:40:32] 	espcomm_send_command: receiving 2 bytes of data
+[26/06/2020 17:40:32] 	espcomm_send_command: receiving 2 bytes of data
+[26/06/2020 17:40:32] 	espcomm_send_command: receiving 2 bytes of data
+[26/06/2020 17:40:32] 	espcomm_send_command: receiving 2 bytes of data
+[26/06/2020 17:40:32] Uploading 873936 bytes from C:\Users\Franck\Desktop\ESPEasy_ESP82xx_mega-20200608\bin\ESP_Easy_mega_20200608_normal_ESP8266_1M.bin to flash at 0x00000000
+[26/06/2020 17:40:32] 	erasing flash
+[26/06/2020 17:40:32] 	size: 0d55d0 address: 000000
+[26/06/2020 17:40:32] 	first_sector_index: 0
+[26/06/2020 17:40:32] 	total_sector_count: 214
+[26/06/2020 17:40:32] 	head_sector_count: 16
+[26/06/2020 17:40:32] 	adjusted_sector_count: 198
+[26/06/2020 17:40:32] 	erase_size: 0c6000
+[26/06/2020 17:40:32] 	espcomm_send_command: sending command header
+[26/06/2020 17:40:32] 	espcomm_send_command: sending command payload
+[26/06/2020 17:40:32] 	setting serial port timeouts to 15000 ms
+[26/06/2020 17:40:32] 	setting serial port timeouts to 1000 ms
+[26/06/2020 17:40:32] 	espcomm_send_command: receiving 2 bytes of data
+[26/06/2020 17:40:32] 	writing flash
+[26/06/2020 17:40:40] ................................................................................ [  9% ]
+[26/06/2020 17:40:48] ................................................................................ [ 18% ]
+[26/06/2020 17:40:55] ................................................................................ [ 28% ]
+[26/06/2020 17:41:03] ................................................................................ [ 37% ]
+[26/06/2020 17:41:11] ................................................................................ [ 46% ]
+[26/06/2020 17:41:19] ................................................................................ [ 56% ]
+[26/06/2020 17:41:27] ................................................................................ [ 65% ]
+[26/06/2020 17:41:35] ................................................................................ [ 74% ]
+[26/06/2020 17:41:43] ................................................................................ [ 84% ]
+[26/06/2020 17:41:51] ................................................................................ [ 93% ]
+[26/06/2020 17:41:56] ......................................................                           [ 100% ]
+[26/06/2020 17:41:56] starting app without reboot
+[26/06/2020 17:41:56] 	espcomm_send_command: sending command header
+[26/06/2020 17:41:56] 	espcomm_send_command: sending command payload
+[26/06/2020 17:41:56] 	espcomm_send_command: receiving 2 bytes of data
+[26/06/2020 17:41:56] closing bootloader
+[26/06/2020 17:41:56] 	flush start
+[26/06/2020 17:41:56] 	setting serial port timeouts to 1 ms
+[26/06/2020 17:41:56] 	setting serial port timeouts to 1000 ms
+[26/06/2020 17:41:56] 	flush complete
+[2020-06-26 17:41:56] DONE!
+############################
+[2020-06-26 17:41:56] The COM port was already in use... the post-flash did not complete.
+[2020-06-26 17:41:56] JOB COMPLETED, over and out!

@@ -1,0 +1,28 @@
+######2020-06-26######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESP_Easy_mega-20200426_custom_ESP32_4M316k.bin
+COM port: (COM6) USB-SERIAL CH340 (Port_#0011.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+Unit name: ESP32
+Unit number: 2
+Admin password: LenaKewan@5020
+WiFi SSID 1: 
+WiFi password 1: 
+WiFi SSID 2: 
+WiFi password 2: 
+IP: 192.168.0.140
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM6 -ca 0x00000 -cf "C:\Users\Franck\Desktop\ESPEasy_ESP82xx_mega-20200608\bin\ESP_Easy_mega-20200426_custom_ESP32_4M316k.bin"]
+[26/06/2020 19:47:37] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[26/06/2020 19:47:37] 	setting board to nodemcu
+[26/06/2020 19:47:37] 	setting baudrate from 115200 to 115200
+[26/06/2020 19:47:37] 	setting port from  to COM6
+[26/06/2020 19:47:37] 	setting address from 0x00000000 to 0x00000000
+[26/06/2020 19:47:37] 	espcomm_upload_file
+[26/06/2020 19:47:37] 	espcomm_upload_mem
+[26/06/2020 19:47:37] error: Failed to open COM6
+[26/06/2020 19:47:37] error: espcomm_open failed
+[26/06/2020 19:47:37] error: espcomm_upload_mem failed
+[2020-06-26 19:47:37] STOPPED due to 3 errors! (try reset on the unit, then start a new flash attempt)

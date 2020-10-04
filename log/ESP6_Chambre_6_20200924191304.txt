@@ -1,0 +1,86 @@
+######2020-09-24######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESP_Easy_mega-20200426_test_ESP32-wrover-kit_4M316k.bin
+COM port: (COM7) Silicon Labs CP210x USB to UART Bridge (Port_#0005.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+No post flash information entered...
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM7 -ca 0x00000 -cf "C:\Users\Franck\Desktop\ESPeasy\ESPEasy_ESP82xx_mega-20200608\bin\ESP_Easy_mega-20200426_test_ESP32-wrover-kit_4M316k.bin"]
+[24/09/2020 19:13:11] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[24/09/2020 19:13:11] 	setting board to nodemcu
+[24/09/2020 19:13:11] 	setting baudrate from 115200 to 115200
+[24/09/2020 19:13:11] 	setting port from  to COM7
+[24/09/2020 19:13:11] 	setting address from 0x00000000 to 0x00000000
+[24/09/2020 19:13:11] 	espcomm_upload_file
+[24/09/2020 19:13:11] 	espcomm_upload_mem
+[24/09/2020 19:13:11] 	setting serial port timeouts to 1000 ms
+[24/09/2020 19:13:11] opening bootloader
+[24/09/2020 19:13:11] resetting board
+[24/09/2020 19:13:11] trying to connect
+[24/09/2020 19:13:11] 	flush start
+[24/09/2020 19:13:11] 	setting serial port timeouts to 1 ms
+[24/09/2020 19:13:11] 	setting serial port timeouts to 1000 ms
+[24/09/2020 19:13:11] 	flush complete
+[24/09/2020 19:13:11] 	espcomm_send_command: sending command header
+[24/09/2020 19:13:11] 	espcomm_send_command: sending command payload
+[24/09/2020 19:13:11] 	read 0, requested 1
+[24/09/2020 19:13:11] trying to connect
+[24/09/2020 19:13:11] 	flush start
+[24/09/2020 19:13:11] 	setting serial port timeouts to 1 ms
+[24/09/2020 19:13:11] 	setting serial port timeouts to 1000 ms
+[24/09/2020 19:13:11] 	flush complete
+[24/09/2020 19:13:11] 	espcomm_send_command: sending command header
+[24/09/2020 19:13:11] 	espcomm_send_command: sending command payload
+[24/09/2020 19:13:11] 	espcomm_send_command: receiving 2 bytes of data
+[24/09/2020 19:13:11] 	espcomm_send_command: receiving 2 bytes of data
+[24/09/2020 19:13:11] 	espcomm_send_command: receiving 2 bytes of data
+[24/09/2020 19:13:11] 	espcomm_send_command: receiving 2 bytes of data
+[24/09/2020 19:13:11] 	espcomm_send_command: receiving 2 bytes of data
+[24/09/2020 19:13:11] 	espcomm_send_command: receiving 2 bytes of data
+[24/09/2020 19:13:11] 	espcomm_send_command: receiving 2 bytes of data
+[24/09/2020 19:13:11] 	espcomm_send_command: receiving 2 bytes of data
+[24/09/2020 19:13:11] Uploading 1786176 bytes from C:\Users\Franck\Desktop\ESPeasy\ESPEasy_ESP82xx_mega-20200608\bin\ESP_Easy_mega-20200426_test_ESP32-wrover-kit_4M316k.bin to flash at 0x00000000
+[24/09/2020 19:13:11] 	erasing flash
+[24/09/2020 19:13:11] 	size: 1b4140 address: 000000
+[24/09/2020 19:13:11] 	first_sector_index: 0
+[24/09/2020 19:13:11] 	total_sector_count: 437
+[24/09/2020 19:13:11] 	head_sector_count: 16
+[24/09/2020 19:13:11] 	adjusted_sector_count: 421
+[24/09/2020 19:13:11] 	erase_size: 1a5000
+[24/09/2020 19:13:11] 	espcomm_send_command: sending command header
+[24/09/2020 19:13:11] 	espcomm_send_command: sending command payload
+[24/09/2020 19:13:11] 	setting serial port timeouts to 16788 ms
+[24/09/2020 19:13:11] 	setting serial port timeouts to 1000 ms
+[24/09/2020 19:13:11] 	espcomm_send_command: receiving 2 bytes of data
+[24/09/2020 19:13:11] 	writing flash
+[24/09/2020 19:13:11] .	wrote 0, requested 1047
+[24/09/2020 19:13:11] error: failed sending 1047 bytes
+[24/09/2020 19:13:11] 	wrote 0, requested 1
+[24/09/2020 19:13:11] error: failed sending 0xC0
+[24/09/2020 19:13:11] 	read 0, requested 1
+[24/09/2020 19:13:11] warning: espcomm_send_command: didn't receive command response
+[24/09/2020 19:13:11] warning: espcomm_send_command(FLASH_DOWNLOAD_DATA) failed
+[24/09/2020 19:13:11] 	wrote 0, requested 1
+[24/09/2020 19:13:11] error: failed sending 0xC0
+[24/09/2020 19:13:11] 	wrote 0, requested 8
+[24/09/2020 19:13:11] error: failed sending 8 bytes
+[24/09/2020 19:13:11] 	wrote 0, requested 4
+[24/09/2020 19:13:11] error: failed sending 4 bytes
+[24/09/2020 19:13:11] 	wrote 0, requested 1
+[24/09/2020 19:13:11] error: failed sending 0xC0
+[24/09/2020 19:13:11] 	read 0, requested 1
+[24/09/2020 19:13:11] warning: espcomm_send_command: didn't receive command response
+[24/09/2020 19:13:11] closing bootloader
+[24/09/2020 19:13:11] 	flush start
+[24/09/2020 19:13:11] 	setting serial port timeouts to 1 ms
+[24/09/2020 19:13:11] 	SetCommTimeouts call failed
+[24/09/2020 19:13:11] 	setting serial port timeouts to 1000 ms
+[24/09/2020 19:13:11] 	SetCommTimeouts call failed
+[24/09/2020 19:13:11] 	flush complete
+[24/09/2020 19:13:11] error: espcomm_upload_mem failed
+[2020-09-24 19:13:11] DONE! BUT WITH (7) ERRORS!
+############################
+[2020-09-24 19:13:11] The COM port was already in use... the post-flash did not complete.
+[2020-09-24 19:13:11] JOB COMPLETED, over and out!

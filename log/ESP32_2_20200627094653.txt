@@ -1,0 +1,21 @@
+######2020-06-27######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESP_Easy_mega-20200426_test_ESP32-wrover-kit_4M316k.bin
+COM port: (COM6) USB-SERIAL CH340 (Port_#0011.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+No post flash information entered...
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM6 -ca 0x00000 -cf "C:\Users\Franck\Desktop\ESPEasy_ESP82xx_mega-20200608\bin\ESP_Easy_mega-20200426_test_ESP32-wrover-kit_4M316k.bin"]
+[27/06/2020 09:46:54] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[27/06/2020 09:46:54] 	setting board to nodemcu
+[27/06/2020 09:46:54] 	setting baudrate from 115200 to 115200
+[27/06/2020 09:46:54] 	setting port from  to COM6
+[27/06/2020 09:46:54] 	setting address from 0x00000000 to 0x00000000
+[27/06/2020 09:46:54] 	espcomm_upload_file
+[27/06/2020 09:46:54] 	espcomm_upload_mem
+[27/06/2020 09:46:54] error: Failed to open COM6
+[27/06/2020 09:46:54] error: espcomm_open failed
+[27/06/2020 09:46:54] error: espcomm_upload_mem failed
+[2020-06-27 09:46:54] STOPPED due to 3 errors! (try reset on the unit, then start a new flash attempt)
